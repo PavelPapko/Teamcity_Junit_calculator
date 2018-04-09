@@ -15,8 +15,8 @@ public class Main {
         System.out.println("Result sin: " + calculator.sin(90));
         System.out.println("Result cos: " + calculator.cos(180));
 
-        System.out.println("Result three: " + calculator.threeNum(5,6, 3));
-
-        System.out.println("Result threeT: " + calculator.threet(20,6, 2));
+        System.out.println("Result threeNum: " + calculator.threeNum(5,6, 3));
+        System.out.println("Result threeNum1: " + calculator.threeNum1(20,6, 2));
+        System.out.println("Result threeNum2: " + calculator.threeNum2(3,3, 2));
     }
 }

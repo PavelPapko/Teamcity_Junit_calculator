@@ -32,13 +32,8 @@ public class CalculatorTest {
         assertEquals(12, calculator.sum(5,7));
     }
 
-   /* @org.junit.Test
-    public void testSum1() throws Exception {
-        assertEquals(100000000, calculator.sum(900000000,100000000));
-    }*/
-
     @org.junit.Test
-    public void testSum2() throws Exception {
+    public void testSum1() throws Exception {
         assertEquals(-11, calculator.sum(-7,-4));
     }
 
@@ -52,11 +47,6 @@ public class CalculatorTest {
         assertEquals(-5, calculator.subtraction(-8,-3));
     }
 
-  /*  @org.junit.Test
-    public void testSubtraction2() throws Exception {
-        assertEquals(3, calculator.subtraction(10,500000000));
-    }*/
-
     @org.junit.Test
     public void testMultiple() throws Exception {
         assertEquals(15, calculator.multiple(5,3));
@@ -64,16 +54,6 @@ public class CalculatorTest {
 
     @org.junit.Test
     public void testMultiple1() throws Exception {
-        assertEquals(900000000, calculator.multiple(10,900000000));
-    }
-
-    @org.junit.Test
-    public void testMultiple2() throws Exception {
-        assertEquals(-630000000, calculator.multiple(-7,900000000));
-    }
-
-    @org.junit.Test
-    public void testMultiple3() throws Exception {
         assertEquals(0, calculator.multiple(6,0));
     }
 
@@ -104,11 +84,28 @@ public class CalculatorTest {
     }
 
     @org.junit.Test
-    public void testDifferentType() {
-        double result = calculator.differentType(6, 6.5);
+    public void testDifferentTypeSum() {
+        double result = calculator.differentTypeSum(6, 6.5);
         assertTrue(result == 12.5);
     }
 
+    @org.junit.Test
+    public void testDifferentTypeSub() {
+        double result = calculator.differentTypeSub(14, 4.8);
+        assertTrue(result == 9.2);
+    }
+
+    @org.junit.Test
+    public void testDifferentTypeMultiple() {
+        double result = calculator.differentTypeMultiple(5, 3.5);
+        assertTrue(result == 17.5);
+    }
+
+    @org.junit.Test
+    public void testDifferentTypeDivide() {
+        double result = calculator.differentTypeDivide(9, 4.5);
+        assertTrue(result == 2);
+    }
 
     @org.junit.Test
     public void testExponent() throws Exception {
@@ -146,16 +143,21 @@ public class CalculatorTest {
         assertTrue(result == -1);
     }
 
-
     @org.junit.Test
-    public void testThree() throws Exception {
+    public void testThreeNum() throws Exception {
         assertEquals(23, calculator.threeNum(5,6,3));
     }
 
     @org.junit.Test
-    public void testT1() throws Exception {
-        double result = calculator.threet(20,6,2);
+    public void testThreeNum1() throws Exception {
+        double result = calculator.threeNum1(20,6,2);
         assertTrue(result == 13.416407864998739);
+    }
+
+    @org.junit.Test
+    public void testThreeNum2() throws Exception {
+        double result = calculator.threeNum2(3,3,2);
+        assertTrue(result == 54);
     }
 
 

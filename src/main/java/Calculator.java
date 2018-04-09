@@ -23,15 +23,27 @@ public class Calculator {
         return num1 % num2;
     }
 
-    public double differentType(double num1, double num2) {
+    public double differentTypeSum(double num1, double num2) {
         return num1 + num2;
+    }
+
+    public double differentTypeSub(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public double differentTypeMultiple(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public double differentTypeDivide(double num1, double num2) {
+        return num1 / num2;
     }
 
     public double exponent (double num1, double num2) {
         return Math.pow(num1, num2);
     }
 
-    public double sqrt (int num1) {
+    public double sqrt (double num1) {
         return Math.sqrt(num1);
     }
 
@@ -55,8 +67,13 @@ public class Calculator {
         return num1 + num2 * num3;
     }
 
-    public double threet (double num1, int num2, int num3) {
-        return Math.sqrt(num1) * num2 / num3;
+    public double threeNum1 (double num1, int num2, int num3) {
+        return sqrt(num1) * num2 / num3;
     }
+
+    public double threeNum2 (double num1, int num2, int num3) {
+        return exponent(num1, num2) * num3;
+    }
+
 
 }
