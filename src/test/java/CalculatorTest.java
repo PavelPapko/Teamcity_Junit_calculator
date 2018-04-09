@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
 
     private Calculator calculator;
-/*
+
     @BeforeClass
     public static void beforeClass() {
         System.out.println("Before CalculatorTest.class");
@@ -15,7 +15,7 @@ public class CalculatorTest {
     public  static void afterClass() {
         System.out.println("After CalculatorTest.class");
     }
-*/
+
     @Before
     public void initTest() {
         calculator = new Calculator();
@@ -26,7 +26,6 @@ public class CalculatorTest {
         calculator = null;
     }
 
-    /////////////////
     @org.junit.Test
     public void testSum() throws Exception {
         assertEquals(12, calculator.sum(5,7));
