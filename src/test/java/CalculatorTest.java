@@ -25,12 +25,12 @@ public class CalculatorTest {
     public void afterTest() {
         calculator = null;
     }
-
+/*
     @org.junit.Test
     public void testSum() throws Exception {
-        assertEquals(12, calculator.sum(5,7));
+        assertEquals(12, calculator.sum(5, Integer.parseInt(null)));
     }
-
+*/
     @org.junit.Test
     public void testSum1() throws Exception {
         assertEquals(-11, calculator.sum(-7,-4));
@@ -158,6 +158,4 @@ public class CalculatorTest {
         double result = calculator.threeNum2(3,3,2);
         assertTrue(result == 54);
     }
-
-
 }

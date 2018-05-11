@@ -75,5 +75,4 @@ public class Calculator {
         return exponent(num1, num2) * num3;
     }
 
-
 }
