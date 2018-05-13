@@ -26,10 +26,6 @@ public class CalculatorTest {
         calculator = null;
     }
 
-    @org.junit.Test
-    public void testSum() throws Exception {
-        assertEquals(12, calculator.sum(5, Integer.parseInt(null)));
-    }
 
     @org.junit.Test
     public void testSum1() throws Exception {
