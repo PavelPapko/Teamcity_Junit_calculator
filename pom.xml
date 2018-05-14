@@ -23,7 +23,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
-            <version>LATEST_VERSION</version>
+            <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
