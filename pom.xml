@@ -58,7 +58,7 @@
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
                     </dependency>
-                    
+
                     <dependency>
                         <groupId>io.qameta.allure</groupId>
                         <artifactId>allure-junit4</artifactId>
@@ -67,7 +67,7 @@
                     <dependency>
                         <groupId>io.qameta.allure</groupId>
                         <artifactId>allure-java-migration</artifactId>
-                        <version>${allure.junit.version}</version>
+                        <version>RELEASE</version>
                     </dependency>
                 </dependencies>
             </plugin>
