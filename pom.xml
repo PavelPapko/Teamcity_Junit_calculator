@@ -77,6 +77,21 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
+            <plugin>
+                <groupId>ru.yandex.qatools.allure</groupId>
+                <artifactId>allure-maven-plugin</artifactId>
+                <configuration>
+                    <resultsDirectory>allure-results</resultsDirectory>
+                    <reportDirectory>${basedir}/target/</reportDirectory>
+                    <reporting>
+                        <outputDirectory>${basedir}/target/allure-results</outputDirectory>
+                    </reporting>
+                </configuration>
+
+            </plugin>
+
+
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
