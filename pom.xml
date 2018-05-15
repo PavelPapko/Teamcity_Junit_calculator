@@ -57,7 +57,6 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.9</version>
             </plugin>
-
         </plugins>
     </build>
 
