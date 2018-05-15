@@ -47,10 +47,6 @@
                             <name>allure.results.directory</name>
                             <value>${project.build.directory}/allure-results</value>
                         </property>
-                        <property>
-                            <name>allure.report.directory</name>
-                            <value>${project.build.directory}/allure-report</value>
-                        </property>
                     </systemProperties>
                 </configuration>
                 <dependencies>
