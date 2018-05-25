@@ -108,8 +108,6 @@ public class CalculatorTest {
         assertTrue(result == 16);
     }
 
-
-
     @org.junit.Test
     public void testSqrt() throws Exception {
         double result = calculator.sqrt(49);
@@ -138,22 +136,5 @@ public class CalculatorTest {
     public void testCos() throws Exception {
         double result = calculator.cos(180);
         assertTrue(result == -1);
-    }
-
-    @org.junit.Test
-    public void testThreeNum() throws Exception {
-        assertEquals(23, calculator.threeNum(5,6,3));
-    }
-
-    @org.junit.Test
-    public void testThreeNum1() throws Exception {
-        double result = calculator.threeNum1(20,6,2);
-        assertTrue(result == 13.416407864998739);
-    }
-
-    @org.junit.Test
-    public void testThreeNum2() throws Exception {
-        double result = calculator.threeNum2(3,3,2);
-        assertTrue(result == 54);
     }
 }
